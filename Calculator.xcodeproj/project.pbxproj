@@ -13,6 +13,7 @@
 		AD49BFDA2699C58F005DAB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD49BFD82699C58F005DAB7E /* Main.storyboard */; };
 		AD49BFDC2699C590005DAB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD49BFDB2699C590005DAB7E /* Assets.xcassets */; };
 		AD49BFDF2699C590005DAB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD49BFDD2699C590005DAB7E /* LaunchScreen.storyboard */; };
+		AD5ABC63269AE2E60090B50A /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5ABC62269AE2E60090B50A /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AD49BFDB2699C590005DAB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD49BFDE2699C590005DAB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD49BFE02699C590005DAB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5ABC62269AE2E60090B50A /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		AD49BFD12699C58F005DAB7E /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				AD49BFD22699C58F005DAB7E /* AppDelegate.swift */,
-				AD49BFD42699C58F005DAB7E /* SceneDelegate.swift */,
+				AD5ABC62269AE2E60090B50A /* CalculatorBrain.swift */,
+				AD49BFE62699C7C7005DAB7E /* Supporting Files */,
 				AD49BFD62699C58F005DAB7E /* ViewController.swift */,
-				AD49BFD82699C58F005DAB7E /* Main.storyboard */,
-				AD49BFDB2699C590005DAB7E /* Assets.xcassets */,
-				AD49BFDD2699C590005DAB7E /* LaunchScreen.storyboard */,
 				AD49BFE02699C590005DAB7E /* Info.plist */,
+				AD49BFD82699C58F005DAB7E /* Main.storyboard */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		AD49BFE62699C7C7005DAB7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD49BFD22699C58F005DAB7E /* AppDelegate.swift */,
+				AD49BFD42699C58F005DAB7E /* SceneDelegate.swift */,
+				AD49BFDB2699C590005DAB7E /* Assets.xcassets */,
+				AD49BFDD2699C590005DAB7E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				AD49BFD72699C58F005DAB7E /* ViewController.swift in Sources */,
 				AD49BFD32699C58F005DAB7E /* AppDelegate.swift in Sources */,
+				AD5ABC63269AE2E60090B50A /* CalculatorBrain.swift in Sources */,
 				AD49BFD52699C58F005DAB7E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
