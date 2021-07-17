@@ -20,6 +20,7 @@ class CalculatorBrain {
     }
     
     // 딕셔너리 value 값에는 상수, 함수, 2항 함수들이 들와야하는데 Double로 받으면 문제가 있으니 Enum으로 해당 값들을 모두 받게 구현
+    // Dictionary<String,Enum(Operation)>
     private var operations: Dictionary<String,Operation> = [
         "π" : Operation.Constant(Double.pi), //Double.pi,
         "e" : Operation.Constant(M_E), //M_E,
